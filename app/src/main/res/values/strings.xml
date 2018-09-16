@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Cellme</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string-array name="brand_names">
+        <item>Lenovo</item>
+        <item>Asus</item>
+        <item>Samsung</item>
+        <item>Mi</item>
+        <item>Micromax</item>
+        <item>One Plus</item>
+        <item>Oppo</item>
+        <item>Vivo</item>
+        <item>Blackberry</item>
+        <item>Apple</item>
+        <item>Microsoft</item>
+    </string-array>
+
+
+    <string-array name="model_asus">
+        <item>Zenfone2 Ze551ml</item>
+        <item>Zenfone2 Ze550ml</item>
+        <item>Zenfone3 Ze551ml</item>
+    </string-array>
+    <string-array name="model_samsung">
+        <item>S1</item>
+        <item>S2</item>
+        <item>S3</item>
+        <item>S4</item>
+    </string-array>
+    <string-array name="model_oneplus">
+        <item>oneplus 1</item>
+        <item>oneplus 2</item>
+        <item>oneplus 3</item>
+        <item>oneplus 4</item>
+    </string-array>
+    <string-array name="model_lenovo">
+        <item>K3 note</item>
+        <item>K4 note</item>
+        <item>K5 note</item>
+    </string-array>
+    <string-array name="model_vivo">
+        <item>Vivo V5s</item>
+        <item>Vivo V55s</item>
+        <item>Vivo V5</item>
+        <item>Vivo Y66</item>
+
+    </string-array>
+
+    <string-array name="model_oppo">
+        <item>Oppo A57</item>
+        <item>Oppo A37</item>
+        <item>Oppo F3 Plus</item>
+        <item>Oppo F1s</item>
+
+    </string-array>
+
+    <string-array name="model_mi">
+        <item>Redmi 4</item>
+        <item>Redmi 4i</item>
+        <item>Redmi 3s</item>
+        <item>Redmi Note 4</item>
+    </string-array>
+
+
+    <string-array name="model_micromax">
+        <item>Canvas 1</item>
+        <item>Canvas 2</item>
+        <item>Canvas 3</item>
+        <item>Canvas 4</item>
+
+    </string-array>
+
+    <string-array name="model_microsoft">
+        <item>Lumia 650</item>
+        <item>Lumia 950 XL Dual SIM</item>
+        <item>Lumia 950 XL</item>
+        <item>Lumia 950 Dual SIM</item>
+        <item>Lumia 550</item>
+
+    </string-array>
+
+    <string-array name="model_apple">
+        <item> iPhone 5S</item>
+        <item> iPhone 4S</item>
+        <item> iPhone 6S</item>
+        <item> iPhone 7S</item>
+        <item> iPhone X</item>
+        <item> iPhone 8</item>
+    </string-array>
+
+
+    <string-array name="mob_parts">
+        <item>battery</item>
+        <item>mother board</item>
+        <item>charger</item>
+        <item>screen</item>
+    </string-array>
+</resources>

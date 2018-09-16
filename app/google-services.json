@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "541298747710",
+    "firebase_url": "https://cellme-f4dfa.firebaseio.com",
+    "project_id": "cellme-f4dfa",
+    "storage_bucket": "cellme-f4dfa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541298747710:android:7226cd777ec0c682",
+        "android_client_info": {
+          "package_name": "com.tu.cellme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541298747710-e42bg6g3svfs64j8shtglc3oc0iqanun.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tu.cellme",
+            "certificate_hash": "d8d5ed1e1bb690690ef0cb7d874376d368d5d12d"
+          }
+        },
+        {
+          "client_id": "541298747710-cg1tc4adqttt17lcci75mnqh5oklauic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATRhNHwn--Qy4qaJEbmq_PsVRsFJXdQm0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541298747710-cg1tc4adqttt17lcci75mnqh5oklauic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgimg"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <EditText
+        android:id="@+id/loginEmailField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="117dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/loginPasswordField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/loginEmailField"
+        android:layout_marginTop="58dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/loginButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginPasswordField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:elevation="0dp"
+        android:text="LogIn"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/newAccountBtn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/loginButton"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="26dp"
+        android:text="Need A NEW ACCOunt?"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</RelativeLayout>

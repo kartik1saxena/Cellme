@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/ScrollView01" android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/cell_bg" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <Button android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/common_google_signin_btn_text_dark_default" android:id="@id/feedbackButton" android:layout_width="10600.0sp" android:layout_height="wrap_content" android:text="Mobile Not Found?" android:layout_alignParentBottom="true" style="@style/Widget.AppCompat.Button.Borderless" />
+        <GridLayout android:id="@id/gridLayout3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginTop="21.0dip" android:layout_marginRight="20.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <Button android:layout_gravity="fill" android:id="@id/asus" android:background="@drawable/asus" android:layout_width="150.0dip" android:layout_height="100.0dip" android:layout_marginTop="20.0dip" android:layout_column="0" android:onClick="buttonTapped" android:layout_row="0" android:elevation="30.0dip" />
+            <Button android:layout_gravity="fill" android:id="@id/blackberry" android:background="@drawable/blackberry" android:layout_width="150.0dip" android:layout_height="100.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_column="1" android:onClick="buttonTapped" android:layout_row="0" style="@style/Widget.AppCompat.Button.Small" />
+            <Button android:layout_gravity="fill" android:id="@id/lenovo" android:background="@drawable/lenovo" android:padding="50.0dip" android:layout_width="150.0dip" android:layout_height="100.0dip" android:layout_marginTop="20.0dip" android:layout_column="0" android:onClick="buttonTapped" android:layout_row="1" />
+            <Button android:layout_gravity="fill" android:id="@id/mi" android:background="@drawable/mi" android:padding="50.0dip" android:layout_width="150.0dip" android:layout_height="100.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_column="1" android:onClick="buttonTapped" android:layout_row="1" android:elevation="0.0dip" style="@style/Widget.AppCompat.AutoCompleteTextView" />
+            <Button android:layout_gravity="fill" android:id="@id/micromax" android:background="@drawable/micromax" android:padding="50.0dip" android:layout_width="150.0dip" android:layout_height="100.0dip" android:layout_marginTop="20.0dip" android:layout_column="0" android:onClick="buttonTapped" android:layout_row="2" />
+            <Button android:layout_gravity="fill" android:id="@id/nokia" android:background="@drawable/nokia" android:padding="50.0dip" android:layout_width="150.0dip" android:layout_height="100.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_column="1" android:onClick="buttonTapped" android:layout_row="2" />
+            <Button android:layout_gravity="fill" android:id="@id/oneplus" android:background="@drawable/oneplus" android:padding="50.0dip" android:layout_width="150.0dip" android:layout_height="100.0dip" android:layout_marginTop="20.0dip" android:layout_column="0" android:onClick="buttonTapped" android:layout_row="3" />
+            <Button android:layout_gravity="fill" android:id="@id/oppo" android:background="@drawable/oppo" android:padding="50.0dip" android:layout_width="150.0dip" android:layout_height="100.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_column="1" android:onClick="buttonTapped" android:layout_row="3" />
+            <Button android:layout_gravity="fill" android:id="@id/samsung" android:background="@drawable/samsung" android:padding="50.0dip" android:layout_width="150.0dip" android:layout_height="100.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="50.0dip" android:layout_column="0" android:onClick="buttonTapped" android:layout_row="4" />
+            <Button android:layout_gravity="fill" android:id="@id/vivo" android:background="@drawable/vivo" android:padding="50.0dip" android:layout_width="150.0dip" android:layout_height="100.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="50.0dip" android:layout_column="1" android:onClick="buttonTapped" android:layout_row="4" />
+        </GridLayout>
+    </RelativeLayout>
+</ScrollView>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgimg"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" >
+
+        <Button
+            android:id="@+id/feedbackButton"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="10600sp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text=""
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <GridLayout
+            android:id="@+id/gridLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21dp">
+
+
+            <Button
+                android:id="@+id/scissor"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_column="0"
+                android:layout_gravity="fill"
+                android:layout_marginTop="20dp"
+                android:layout_row="0"
+
+                android:elevation="30dp"
+                android:onClick="buttonTapped"
+                android:text="scissor_50" />
+
+            <Button
+                android:id="@+id/rope"
+                style="@style/Widget.AppCompat.Button.Small"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_column="1"
+                android:layout_gravity="fill"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_row="0"
+
+                android:onClick="buttonTapped"
+                android:text="rope_30" />
+
+            <Button
+                android:id="@+id/FormalShoes"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_column="0"
+                android:layout_gravity="fill"
+                android:layout_row="1"
+                android:layout_marginTop="20dp"
+
+                android:onClick="buttonTapped"
+                android:text="Formalshoes_50"
+                 />
+
+            <Button
+                android:id="@+id/FormalShirt"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_column="1"
+                android:layout_gravity="fill"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_row="1"
+
+                android:elevation="0dp"
+
+                android:onClick="buttonTapped"
+                android:text="FormalShirt_100" />
+
+            <Button
+                android:id="@+id/GeometryBox"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_column="0"
+                android:layout_gravity="fill"
+                android:layout_marginTop="20dp"
+                android:layout_row="2"
+
+                android:onClick="buttonTapped"
+                android:text="GeometryBox_40" />
+
+            <Button
+                android:id="@+id/Drafter"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_column="1"
+                android:layout_gravity="fill"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_row="2"
+
+                android:onClick="buttonTapped"
+                android:text="Drafter_50" />
+
+            <Button
+                android:id="@+id/Cooler"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_column="0"
+                android:layout_gravity="fill"
+                android:layout_marginTop="20dp"
+                android:layout_row="3"
+
+                android:onClick="buttonTapped"
+                android:text="Cooler_400" />
+
+            <Button
+                android:id="@+id/HikingShoes"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_column="1"
+                android:layout_gravity="fill"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_row="3"
+
+                android:text="HikingShoes_50" />
+
+            <Button
+                android:id="@+id/Bottle"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_column="0"
+                android:layout_gravity="fill"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_row="4"
+                android:onClick="buttonTapped"
+                android:text="Bottle_30" />
+
+            <Button
+                android:id="@+id/Bag"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_column="1"
+                android:layout_gravity="fill"
+                android:layout_marginBottom="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_row="4"
+                android:onClick="buttonTapped"
+                android:text="Bag_100" />
+
+
+
+        </GridLayout>
+
+    </RelativeLayout>
+        </ScrollView>-->

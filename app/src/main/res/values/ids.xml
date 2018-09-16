@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="gridLayout3" type="id" />
+    <item name="asus" type="id" />
+    <item name="blackberry" type="id" />
+    <item name="lenovo" type="id" />
+    <item name="mi" type="id" />
+    <item name="micromax" type="id" />
+    <item name="nokia" type="id" />
+    <item name="oneplus" type="id" />
+    <item name="oppo" type="id" />
+    <item name="samsung" type="id" />
+    <item name="vivo" type="id" />
+    <item name="sellButton" type="id" />
+    <item name="buyButton" type="id" />
+    <item name="feedbackButton" type="id" />
+</resources>

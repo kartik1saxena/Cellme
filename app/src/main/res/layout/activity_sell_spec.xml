@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cell_bg"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <AutoCompleteTextView
+        android:id="@+id/modelText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+
+        android:hint="Enter Model(Without Space)"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/nextButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="69dp"
+        android:layout_toStartOf="@+id/noButton"
+        android:text="Yes"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/switchId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/modelText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:text="Does The Mobile Switch On?"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switchId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:text="Should be able to make and receeive calls"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/noButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/nextButton"
+        android:layout_alignBottom="@+id/nextButton"
+        android:layout_alignEnd="@+id/textView6"
+        android:layout_marginEnd="40dp"
+        android:text="No"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="24sp" />
+</RelativeLayout>
